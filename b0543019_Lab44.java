@@ -6,7 +6,7 @@ public class Lab44 {
 	static LinkedList<treenode> Queue = new LinkedList<treenode>();
 	public static void BFS(treenode root)
 	{	
-		sop("走訪之節點:"+root.value+"\n");
+		sop("traverse node:"+root.value+"\n");
 		sop("Queue:");
 		for(int i=0;i<root.child.size();i++)
 		{
